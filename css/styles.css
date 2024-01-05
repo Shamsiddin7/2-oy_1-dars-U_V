@@ -1,0 +1,62 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    background: #D5E1EF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 497px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    row-gap: 16px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: #3685FF;
+}
+
+.headline {
+    max-width: 288px;
+    width: 100%;
+    color: #1F314F;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.text {
+    max-width: 256px;
+    width: 100%;
+    color: #7D889E;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.188px;
+}
